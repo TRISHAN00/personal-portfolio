@@ -1,5 +1,155 @@
+/* 
+color code : #363958
+FF8367
+*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Bebas Neue", cursive;
+}
+.col-1 {
+  width: 8.33%;
+  float: left;
+}
+.col-2 {
+  width: 16.66%;
+  float: left;
+}
+.col-3 {
+  width: 25%;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+.col-5 {
+  width: 41.66%;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+.col-8 {
+  width: 66.66%;
+  float: left;
+}
+.col-9 {
+  width: 75%;
+  float: left;
+}
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+.col-11 {
+  width: 91.66%;
+  float: left;
+}
+.col-12 {
+  width: 100%;
+  float: left;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.row {
+  padding: 0px -15px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+p {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+}
+/* website start */
+
+/* memu css start */
+.header-menu {
+  float: right;
+  margin: 37px 0px;
+}
+nav ul li {
+  float: left;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #3c3c3c;
+  font-size: 16px;
+  display: inline-block;
+}
+
+/* slider css */
+.slider-img img {
+  width: 100%;
+  margin-top: -60px;
+}
+.slider-content h1 {
+  font-size: 80px;
+  color: #363958;
+  font-weight: bold;
+  margin-top: 100px;
+}
+span.slider-heading {
+  color: #ff8367;
+}
+.slider-content p {
+  font-size: 16px;
+  padding-right: 292px;
+  line-height: 26px;
+  font-weight: 500;
+}
+a.hire-me {
+  background-color: #f96d61;
+  color: #fff;
+  padding: 10px 50px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+/* about area */
+.about-img img {
+  width: 100%;
+}
+.about-content {
+  margin-top: 200px;
+}
+.about-content h2 {
+  color: #363958;
+  font-size: 48px;
+  font-weight: 500;
+}
+.about-content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e3e3e;
+}
+a.download-btn {
+  background-color: #f96d61;
+  color: #fff;
+  padding: 10px 50px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+/* single project area */
+.single-project img {
+  width: 100%;
 }
